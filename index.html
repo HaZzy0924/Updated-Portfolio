@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Franzh Bataan - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/flvb.svg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Meee.png" alt="Franzh Bataan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Franzh Bataan">Franzh Bataan</h1>
+
+          <p class="title">Aspiring IT Professional</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:franzhbataan@gmail.com" class="contact-link">franzhbataan@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+639055083386" class="contact-link">+639055083386</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-09-24">September 24, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>San Carlos City, Pangasinan, Philippines</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/HaZzy.0924" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://twitter.com/HaZzy_09240311" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://www.instagram.com/hazzy_0924/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/flvb-h0a9z2z4y/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://github.com/HaZzy0924" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+<!-- 
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+ -->
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As a fourth-year college student in pursuit of an Information Technology degree, I've developed a deep passion for programming, particularly finding joy in exploring game development using Unity. Alongside this, I've been intrigued by the possibilities of cloud computing and data analytics and am committed to staying updated on their latest advancements.
+          </p>
+
+          <p>
+            Moreover, I value the opportunity to continuously refine my problem-solving skills and have a natural inclination towards system administration. I greatly appreciate collaborating within diverse teams, always striving to communicate effectively and contribute positively. My aim is to humbly expand my skill set to adapt to the ever-evolving landscape of the IT industry.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Learning</h4>
+
+                <p class="service-item-text">
+                  Pursuing a degree in Information Technology.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Development</h4>
+
+                <p class="service-item-text">
+                  Demonstrating a strong passion for programming.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Developed applications for Android and iOS.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-laptop.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game Development</h4>
+
+                <p class="service-item-text">
+                  Developed game applications for Windows.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Editing</h4>
+
+                <p class="service-item-text">
+                  I love editing videos as it allows me to unleash my imagination and bring stories to life through the seamless fusion of visuals, audio, and effects. 
+                </p>
+              </div>
+
+            </li>      
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Hobbies</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Pika.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Anime</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I love watching anime's captivating and diverse stories, which transport me to vibrant worlds filled with imaginative characters and compelling narratives. From heartwarming tales of friendship and love to thrilling adventures and epic battles, anime offers a range of emotions that resonate deeply with me.
+With each anime series I explore, I become engrossed in the artistry of animation, appreciating the intricate details and unique art styles that bring the characters and settings to life. The ability of anime to convey complex themes, philosophical ideas, and thought-provoking messages captivates my intellect and leaves a lasting impression on my heart.
+Anime has a way of transcending cultural boundaries, connecting people from all walks of life through shared experiences and fandom. It has introduced me to a diverse community of enthusiasts, and I cherish the discussions and connections that arise from our shared passion.
+Moreover, anime has enriched my life beyond entertainment, inspiring me to pursue creative endeavors and explore different forms of art. It has sparked my interest in learning about Japanese culture, language, and traditions, fostering a deep appreciation for the country's rich heritage.
+Whether it's a classic series that has stood the test of time or a newly released anime that sets my imagination on fire, each viewing experience holds a special place in my heart. The world of anime has opened doors to new perspectives, helping me grow as an individual and shaping my values and beliefs.
+As I continue to delve into the vast array of anime titles, I eagerly anticipate discovering hidden gems and expanding my horizons. The impact of anime on my life is immeasurable, and I look forward to being a lifelong fan, cherishing the emotional journeys and unforgettable characters that have become an integral part of who I am."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Coding.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Coding</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I love watching coding videos that not only entertain and inspire me but also provide valuable insights into the world of programming. Each video opens a door to a treasure trove of knowledge, allowing me to learn new coding languages, explore cutting-edge technologies, and discover innovative problem-solving techniques.
+                    Through coding videos, I can witness real-time coding sessions, witness the thought processes of experienced developers, and witness the magic of turning lines of code into functional applications. The engaging tutorials and step-by-step demonstrations enhance my understanding of complex concepts, making it easier to grasp and apply them in my own coding projects.
+                    Moreover, coding videos foster a sense of community as I connect with fellow enthusiasts in the comments section or through online coding forums. This camaraderie inspires me to share my own coding experiences, seek help when needed, and collaborate on exciting projects with like-minded individuals.
+                    The diversity of coding videos spans from beginner-friendly introductions to advanced topics, catering to all levels of expertise and enabling me to grow as a developer. Whether I'm delving into web development, mobile app creation, game design, or data analysis, coding videos fuel my passion for learning and continuously pushing the boundaries of my coding skills.
+                    I eagerly await new video uploads, anticipating the next adventure in the world of coding. The joy of unraveling complex coding challenges, learning from experienced mentors, and witnessing the endless possibilities of programming keeps me motivated and passionate about this ever-evolving field.
+                    As I immerse myself in coding videos, I recognize the immense value they bring to my journey as a programmer. They are not just videos; they are gateways to endless opportunities, igniting the spark of curiosity and propelling me towards new horizons in the exciting realm of coding.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Controller.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gaming</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I love playing games as they offer a thrilling escape into immersive worlds where I can embark on epic adventures, solve challenging puzzles, and unleash my competitive spirit. From action-packed shooters that keep my adrenaline pumping to strategically rich role-playing games that test my decision-making skills, each gaming experience brings its unique blend of excitement and enjoyment.
+Through gaming, I have discovered a fantastic community of like-minded players who share the same passion and enthusiasm. Engaging with fellow gamers in online multiplayer matches or team-based quests not only fosters camaraderie but also opens doors to forming lasting friendships from all corners of the globe.
+Beyond the entertainment value, gaming has proven to be an exceptional platform for storytelling and artistic expression. Engaging narratives, beautifully designed worlds, and emotionally resonant characters have left a profound impact, evoking a myriad of emotions, from laughter to tears.
+As a gamer, I value the invaluable life lessons that gaming imparts, teaching me perseverance, problem-solving, and adaptability. Overcoming challenging levels or conquering daunting foes has taught me that determination and resilience are keys to success in any endeavor.
+Moreover, gaming has kindled my curiosity and interest in technology, igniting a desire to explore game development and the behind-the-scenes magic that brings digital experiences to life.
+Whether it's the nostalgia of retro classics or the thrill of discovering the latest releases, gaming remains a cherished part of my life, providing an interactive and ever-evolving medium of entertainment that continues to captivate me with its endless possibilities. With every gaming session, I eagerly anticipate the next adventure that awaits and the joy it will undoubtedly bring.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/leading.jpg" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Leading</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I love leading because it allows me to inspire and motivate others, fostering teamwork and collaboration towards a common goal. As a natural leader, I find gratification in guiding and empowering individuals to realize their full potential and succeed in their endeavors. Whether it's taking charge in group projects at school or organizing community events, I thrive on the responsibility of guiding others and contributing positively to the growth and success of the team.
+Through leadership, I have learned the importance of active listening, empathy, and understanding different perspectives. By encouraging open communication and cultivating a supportive environment, I aim to create a space where everyone's ideas are valued, and each member feels valued and heard.
+Being a leader is not just about authority; it's about serving as a role model and fostering a culture of respect, cooperation, and inclusivity. Guided by my leadership skills, I aspire to make a positive impact on those around me, encouraging them to push their boundaries and achieve extraordinary results.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+
+              <div data-modal-text>
+                <p>
+                  Hello!
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Known Programming Languages</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-7-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-8-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-9-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-91-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-92-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-94-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-93-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PHINMA Education University of Pangasinan, Dagupan </h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                A fourth-year college student pursuing the Information Technology course, determined to excel and graduate with flying colors.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Speaker Eugenio Perez National Agricultural School</h4>
+
+              <span>2014 — 2020</span>
+
+              <p class="timeline-text">
+                Achieving the second-highest rank in the class and graduating with outstanding academic performance.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Central I Elementary School</h4>
+
+              <span>2008 — 2013</span>
+
+              <p class="timeline-text">
+                Completed studies with distinction.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project Manager</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                I was picked by my Professor to become a project manager, so I gladly accept it. As a project manager,
+I embraced the opportunity with enthusiasm and a determination to lead our team towards success.
+I knew this role would come with its challenges, but I was ready to tackle them head-on and prove myself capable of handling the responsibilities.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ZETOX</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                My team members and I developed a prototype application designed to assist beginners in learning programming languages. 
+                We showcased our creation during a school exhibit.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">GigaChat</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                We are tasked to create an app with a database, and after careful consideration, we unanimously decided on developing a messaging app. 
+                We recognized that a messaging app would not only provide a practical and engaging use case but also allow us to showcase our technical skills 
+                in managing a database-backed application effectively.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">UPANG: Age of Apocalypse</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Our team was tasked with the development of "UPANG: Age of Apocalypse," a 3D zombie Apocalypse Survival Game on the PC Gaming Platform, recognizing its potential to offer both thrilling gameplay and an opportunity to demonstrate our technical prowess in crafting an immersive survival-themed gaming experience.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Project Management</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Communication Skills</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Problem-Solving Skills</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Adaptability</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Teamwork</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Networking Skills</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Database Management</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Analytical Skills</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Programming and Software Development</h5>
+              </div>
+            </li>
+
+           
+
+          </ul>
+
+        </section>
+        
+        </article>
+        
+
+
+<!--
+  #PORTFOLIO
+-->
+
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Applications</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Web Development</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Web Design</button>
+      </li>
+
+    </ul>
+
+    <div class="filter-select-box">
+
+      <button class="filter-select" data-select>
+
+        <div class="select-value" data-selecct-value>Select category</div>
+
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+
+      </button>
+
+      <ul class="select-list">
+
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Applications</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Web Development</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Web Design</button>
+        </li>
+
+      </ul>
+
+    </div>
+
+    
+    <ul class="project-list">
+
+      <li class="project-item  active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <h3 class="project-title">"COMING SOON"</h3>
+          </figure>
+        </a>
+      </li>
+
+<li class="project-item" data-filter-item data-category="applications">
+  <a href="https://drive.google.com/drive/folders/1KkofXLELn60hJj8OvXKN45yZFBS6p70Z?usp=drive_link" target="_blank">
+    <figure class="project-img">
+      <img src="./assets/images/UUAA.png" alt="UPANG: Age of Apocalypse Gameplay">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <h3 class="project-title">"UPANG: Age of Apocalypse Gameplay"</h3>
+    </figure>
+  </a>
+</li>
+
+
+
+      <li class="project-item" data-filter-item data-category="web design">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <h3 class="project-title">"COMING SOON"</h3>
+          </figure>
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">"COMING SOON"</h5>
+          </div>
+        </li>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+             
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61392.158138406296!2d120.31149380000001!3d15.908553099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33915ae1acb4488b%3A0xde72f681ae396c15!2sSan%20Carlos%20City%2C%20Pangasinan!5e0!3m2!1sen!2sph!4v1690244156849!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+              width="640" height="480"
+              loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+         <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formsubmit.co/franzhbataan@gmail.com" class="contact-form" method="POST" data-form>
+          
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+          
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+          
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
